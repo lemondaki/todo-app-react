@@ -1,0 +1,49 @@
+.todoItem {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.taskCompleted {
+    text-decoration: line-through;
+}
+
+.taskName {
+    margin: 0;
+}
+
+.wrapperCheckbox {
+    display: flex;
+    align-items: center;
+}
+
+
+.deadlineTime {
+    margin-left: 6px;
+}
+
+.actionTodo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.actionBtn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.actionText {
+    margin-left: 4px;
+}
+
+.deleteBtn {
+    color: var(--danger-color);
+}
+
+.editBtn {
+    color: var(--primary-color);
+}

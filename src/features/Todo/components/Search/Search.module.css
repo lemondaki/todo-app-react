@@ -1,0 +1,15 @@
+.searchBox {
+    margin-top: 20px;
+}
+
+.searchInput {
+    width: calc(100% - 20px);
+    padding: 14px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.searchInput:focus {
+    border: 2px solid var(--primary-color);
+}

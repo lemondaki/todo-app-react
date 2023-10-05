@@ -1,0 +1,21 @@
+.todoList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.loading {
+    margin-top: 50px;
+}
+
+.titleHeading {
+    color: #ccc;
+    font-size: 32px;
+}
+
+.titleShowInfor,
+.titleError {
+    color: #ccc;
+    font-size: 32px;
+}

@@ -1,0 +1,41 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.modalDialog {
+    background-color: #fff;
+    width: 550px;
+    max-height: 380px;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.modalTitle {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.closeIcon {
+    font-size: 24px;
+}
+
+.closeIcon:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}

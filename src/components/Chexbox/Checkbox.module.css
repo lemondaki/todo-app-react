@@ -1,0 +1,9 @@
+.inputCheckbox {
+    width: 14px;
+    height: 14px;
+    margin-right: 4px;
+    font-size: 10px;
+    border: 1px solid #ccc;
+    accent-color: var(--primary-color);
+    cursor: pointer;
+}

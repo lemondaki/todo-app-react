@@ -1,0 +1,71 @@
+:root {
+    --primary-color: #0d6efd;
+    --danger-color: #dc3545;
+    --secondary-color: #6c757d;
+}
+
+.app {
+    width: 800px;
+    min-height: 700px;
+    margin: 20px auto;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.wrapper-action-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.mr-8 {
+    margin-right: 8px;
+}
+
+*:not(i) {
+    font-family: "Roboto", sans-serif;
+    user-select: none;
+}
+
+.wrapper-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 12px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    min-width: 50px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.primary-btn {
+    background-color: var(--primary-color);
+}
+
+
+.secondary-btn {
+    background-color: var(--secondary-color);
+}
+
+.danger-btn {
+    background-color: var(--danger-color);
+}
+
+.custom-shadow {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
