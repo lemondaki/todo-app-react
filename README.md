@@ -8,6 +8,8 @@ yarn
 yarn prepare
 ```
 
+## Demo app: https://todo-app-react-lemondaki.netlify.app/
+
 ## [How to Write Cleaner React Code](https://www.freecodecamp.org/news/how-to-write-cleaner-react-code/)
 
 https://www.freecodecamp.org/news/how-to-write-cleaner-react-code/
